@@ -1,17 +1,8 @@
 name: Python Unit Tests
 
 # Runs on all commits to all branches (no branch filter = all branches)
-# Source - https://stackoverflow.com/a/67932410
-# Posted by sachinkondana, modified by community. See post 'Timeline' for change history
-# Retrieved 2026-02-03, License - CC BY-SA 4.0
-
 on:
   push:
-    branches:
-     - master
-    paths:
-     - 'calculator.py'
-     - 'test_calculator.py'
   pull_request:
   workflow_dispatch:
 
