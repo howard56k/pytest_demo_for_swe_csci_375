@@ -1,5 +1,5 @@
 """
-Simple calculator module for demonstration purposes.
+Simple calculator module for demonstration purposes
 """
 
 
