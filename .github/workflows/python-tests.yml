@@ -1,10 +1,9 @@
 name: Python Unit Tests
 
+# Runs on all commits to all branches (no branch filter)
 on:
-  push:
-    branches: [ main, master, develop ]
-  pull_request:
-    branches: [ main, master, develop ]
+  push:  # Runs on every commit to any branch
+  pull_request:  # Runs on all pull requests
   workflow_dispatch:  # Allows manual triggering
 
 jobs:
